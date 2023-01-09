@@ -1,0 +1,14 @@
+{
+    "include": [
+        "./src/**/*"
+    ],
+    "compilerOptions": {
+        "strict": true, // 既存コードをTSに直すときはエラー祭りになっちゃうので徐々に直してtrueにする
+        "esModuleInterop": true,
+        "lib": [
+            "dom",
+            "es2015"
+        ],
+        "jsx": "react-jsx"
+    }
+}
